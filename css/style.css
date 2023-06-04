@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2124B1;
+    --primary: #7131A0 ;
     --secondary: #4777F5;
     --light: #F7FAFF;
     --dark: #1D1D27;
@@ -269,7 +269,7 @@ h6,
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../img/icon-shape-primary.png) center center no-repeat;
+    background: url(../img/icon-shape-morado.svg) center center no-repeat;
     transition: .5s;
 }
 
