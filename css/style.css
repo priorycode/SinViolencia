@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #7131A0 ;
+    --primary: #7131A0;
     --primary-nav: #b27ed4;
     --secondary: #4777F5;
     --light: #F7FAFF;
@@ -149,7 +149,7 @@ h6,
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
@@ -457,6 +457,69 @@ h6,
     transition-delay: .15s;
 }
 
+/* chat */
+.contenedor-chat {
+    /* background-color: #4777F5; */
+}
+
+.container-chat {
+    background-color: #A494AE;
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-chat textarea {
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    padding: 1rem;
+}
+
+.input-footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-footer button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary);
+}
+
+.input-footer input {
+    width: 100%;
+    border-radius: .5rem;
+    border: none;
+    height: 2.6rem;
+    font-size: 16px;
+    padding-left: 2rem;
+    outline: none;
+}
+
+@media (min-width: 750px) {
+    .container-chat {
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .input-footer input {
+        height: 5.6rem;
+        font-size: 1.6rem;
+        border-radius: 2rem;
+    }
+
+    .input-footer button {
+        width: 5rem;
+        height: 5rem;
+    }
+}
 
 /*** Footer ***/
 .footer {
